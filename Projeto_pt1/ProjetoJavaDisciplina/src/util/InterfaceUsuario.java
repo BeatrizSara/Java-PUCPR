@@ -15,7 +15,7 @@ public class InterfaceUsuario {
                     System.out.println("O valor do imóvel deve ser positivo. Por favor, informe novamente.");
                 }
             }catch (Exception e) {
-                System.out.println("Por favor, informe um valor numperico válido.");
+                System.out.println("Por favor, informe um valor numérico válido.");
                 scanner.next(); // Limpa o buffer do scanner
             }
         } while (valorImovel <= 0);
